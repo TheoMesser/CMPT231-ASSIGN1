@@ -96,8 +96,8 @@ public class PlotViewer extends Application {
 
 		// populating the series with data
 		for (int i = 0; i < NUM_TEST; i++) {
-			bSeries.getData().add(new XYChart.Data(n[i], rt[i][0]));
-			qSeries.getData().add(new XYChart.Data(n[i], rt[i][1]));
+			bSeries.getData().add(new XYChart.Data(n[i], rt[i][1]));
+			qSeries.getData().add(new XYChart.Data(n[i], rt[i][0]));
 		}
 
 		// do the plot
